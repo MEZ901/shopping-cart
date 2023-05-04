@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { Home, Store, About } from "./pages";
 import { Navbar } from "./components";
-import { ShoppingCartProvider } from "./context/ShopingCartContext";
+import { ShoppingCartProvider } from "./context";
 
 function App() {
   return (
